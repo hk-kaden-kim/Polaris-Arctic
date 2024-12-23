@@ -1,0 +1,26 @@
+name : cv-seaicelead
+
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - pip
+  # - ipykernel
+  - pyyaml
+  - wget
+  - tqdm
+  - pandas
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - torchvision
+  - torchgeo>=0.5.2
+  # - pip:    # https://github.com/microsoft/torchgeo/issues/2069
+  #   - git+https://github.com/microsoft/torchgeo.git
+  - gdown
+  - rarfile
+  - pycocotools
