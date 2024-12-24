@@ -9,7 +9,6 @@ channels:
 dependencies:
   - python=3.12
   - pip
-  # - ipykernel
   - pyyaml
   - wget
   - tqdm
@@ -18,9 +17,9 @@ dependencies:
   - scikit-learn
   - matplotlib
   - torchvision
-  - torchgeo>=0.5.2
-  # - pip:    # https://github.com/microsoft/torchgeo/issues/2069
-  #   - git+https://github.com/microsoft/torchgeo.git
+  - pip:    
+      - git+https://github.com/microsoft/torchgeo.git
+  # https://github.com/microsoft/torchgeo/issues/2069
   - gdown
   - rarfile
   - pycocotools
