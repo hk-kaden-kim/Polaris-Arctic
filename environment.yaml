@@ -1,9 +1,7 @@
-name : cv-seaicelead
+name : polaris-arctic-v0
 
 channels:
   - defaults
-  - pytorch
-  - nvidia
   - conda-forge
 
 dependencies:
@@ -16,10 +14,10 @@ dependencies:
   - numpy
   - scikit-learn
   - matplotlib
-  - torchvision
-  - pip:    
-      - git+https://github.com/microsoft/torchgeo.git
-  # https://github.com/microsoft/torchgeo/issues/2069
+  - cartopy
+  - gdal
   - gdown
-  - rarfile
-  - pycocotools
+  - netCDF4
+  - cdsapi
+  - rasterio
+

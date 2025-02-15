@@ -1,1 +1,4 @@
-tmp*
+archieve
+dataset/arcnet/ArcNet_shp_files
+dataset/arcnet/*.tif
+dataset/era5/*.nc
